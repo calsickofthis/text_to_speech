@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text 2 speech application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/header.css"/>
+        <link rel="stylesheet" type="text/css" href="css/font.css"/>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>App</h1>
+        </header>
+
+        <!-- Form for speach input and buttons -->
+        <form action="javascript:speak()">
+            <input type="text" placeholder="type here" name="clearBtn" id="SpeechInput" required/>
+            <input type="submit" value="speak" name="submitBtn"/>
+        </form>
+
+        <input type="button" onclick="savePhrase()" value="save phrase"/>
+
+        <hr>
+
+        <!-- phrases saved by user -->
+        <ul id ="phrases">
+        </ul>
+
+        <script src="js/speak.js"></script>
+        <script src="js/savephrase.js"></script>
+    </body>
+</html>

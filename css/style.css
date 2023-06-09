@@ -1,0 +1,21 @@
+body,html{
+    margin:0;
+    padding:0;
+    padding-top: 60px;
+    background: whitesmoke;
+}
+
+input {
+    padding:10px;
+    /* margin:10px; */
+    font-size:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    border:1px solid black;
+    background-color: gainsboro;
+    height:300px;
+    overflow: auto;
+}
